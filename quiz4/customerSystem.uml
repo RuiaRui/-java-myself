@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="290.0" y="599.0">InstitutionalCustomerDataBase</node>
+    <node x="98.01388888888886" y="0.0">Customer</node>
+    <node x="506.26388888888886" y="103.5">ContactItem</node>
+    <node x="0.0" y="599.0">IndividualCustomerDataBase</node>
+    <node x="282.0" y="357.0">InstitutionalCustomer</node>
+    <node x="599.0" y="403.5">Contact</node>
+    <node x="51.0" y="415.0">IndividualCustomer</node>
+    <node x="287.5" y="748.0">CustomerInformationSystem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CustomerInformationSystem" target="Contact">
+      <point x="95.33333333333337" y="-84.0" />
+      <point x="525.8333333333334" y="723.0" />
+      <point x="746.0" y="723.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="IndividualCustomerDataBase" target="IndividualCustomer">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="CustomerInformationSystem" target="InstitutionalCustomerDataBase">
+      <point x="0.0" y="-84.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="InstitutionalCustomerDataBase" target="InstitutionalCustomer">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="96.0" />
+    </edge>
+    <edge source="CustomerInformationSystem" target="IndividualCustomerDataBase">
+      <point x="-95.33333333333331" y="-84.0" />
+      <point x="335.1666666666667" y="723.0" />
+      <point x="135.0" y="723.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="InstitutionalCustomer" target="Customer">
+      <point x="-74.25" y="-96.0" />
+      <point x="356.25" y="332.0" />
+      <point x="317.76388888888886" y="332.0" />
+      <point x="73.25" y="153.5" />
+    </edge>
+    <edge source="IndividualCustomer" target="Customer">
+      <point x="0.0" y="-38.0" />
+      <point x="135.0" y="332.0" />
+      <point x="171.26388888888886" y="332.0" />
+      <point x="-73.25" y="153.5" />
+    </edge>
+    <edge source="Contact" target="ContactItem">
+      <point x="0.0" y="-49.5" />
+      <point x="746.0" y="332.0" />
+      <point x="683.2638888888889" y="332.0" />
+      <point x="59.0" y="50.0" />
+    </edge>
+    <edge source="InstitutionalCustomer" target="ContactItem">
+      <point x="74.25" y="-96.0" />
+      <point x="504.75" y="332.0" />
+      <point x="565.2638888888889" y="332.0" />
+      <point x="-59.0" y="50.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7339743589743589" x="446.5" y="458.00000000000006" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

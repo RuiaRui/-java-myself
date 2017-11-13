@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="277.5" y="229.0">Chassis</node>
+    <node x="309.0" y="126.0">SystemBox</node>
+    <node x="202.0" y="424.0">Processor</node>
+    <node x="0.0" y="435.5">Memory</node>
+    <node x="795.0" y="114.5">Keyboard</node>
+    <node x="632.0" y="114.5">Monitor</node>
+    <node x="471.5" y="263.5">HardDisk</node>
+    <node x="440.0" y="103.0">Mouse</node>
+    <node x="130.5" y="286.5">Motherboard</node>
+    <node x="542.25" y="0.0">Computer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="SystemBox" target="Computer">
+      <point x="0.0" y="-15.0" />
+      <point x="364.5" y="73.0" />
+      <point x="560.375" y="73.0" />
+      <point x="-54.375" y="26.5" />
+    </edge>
+    <edge source="Memory" target="Motherboard">
+      <point x="0.0" y="-38.0" />
+      <point x="91.0" y="399.0" />
+      <point x="162.25" y="399.0" />
+      <point x="-31.75" y="15.0" />
+    </edge>
+    <edge source="Processor" target="Motherboard">
+      <point x="0.0" y="-49.5" />
+      <point x="297.0" y="399.0" />
+      <point x="225.75" y="399.0" />
+      <point x="31.75" y="15.0" />
+    </edge>
+    <edge source="Chassis" target="SystemBox">
+      <point x="0.0" y="-72.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Monitor" target="Computer">
+      <point x="0.0" y="-26.5" />
+      <point x="703.5" y="83.0" />
+      <point x="632.875" y="83.0" />
+      <point x="18.125" y="26.5" />
+    </edge>
+    <edge source="Motherboard" target="SystemBox">
+      <point x="0.0" y="-15.0" />
+      <point x="194.0" y="204.0" />
+      <point x="327.5" y="204.0" />
+      <point x="-37.0" y="15.0" />
+    </edge>
+    <edge source="Mouse" target="Computer">
+      <point x="0.0" y="-38.0" />
+      <point x="526.0" y="83.0" />
+      <point x="596.625" y="83.0" />
+      <point x="-18.125" y="26.5" />
+    </edge>
+    <edge source="Keyboard" target="Computer">
+      <point x="0.0" y="-26.5" />
+      <point x="881.0" y="73.0" />
+      <point x="669.125" y="73.0" />
+      <point x="54.375" y="26.5" />
+    </edge>
+    <edge source="HardDisk" target="SystemBox">
+      <point x="0.0" y="-38.0" />
+      <point x="555.5" y="204.0" />
+      <point x="401.5" y="204.0" />
+      <point x="37.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="483.5" y="261.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="137.0" y="80.0">Mammal</node>
+    <node x="194.0" y="160.0">Whale</node>
+    <node x="245.5" y="240.0">GrayWhale</node>
+    <node x="143.25" y="0.0">Animal</node>
+    <node x="302.0" y="80.0">Bird</node>
+    <node x="0.0" y="160.0">Shark</node>
+    <node x="5.5" y="80.0">Fish</node>
+    <node x="298.0" y="160.0">Eagle</node>
+    <node x="101.0" y="160.0">Dog</node>
+    <node x="116.5" y="240.0">BlueWhale</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GrayWhale" target="Whale">
+      <point x="0.0" y="-15.0" />
+      <point x="301.0" y="215.0" />
+      <point x="257.0" y="215.0" />
+      <point x="21.0" y="15.0" />
+    </edge>
+    <edge source="Eagle" target="Bird">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Fish" target="Animal">
+      <point x="0.0" y="-15.0" />
+      <point x="40.5" y="55.0" />
+      <point x="157.75" y="55.0" />
+      <point x="-29.0" y="15.0" />
+    </edge>
+    <edge source="Shark" target="Fish">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Whale" target="Mammal">
+      <point x="0.0" y="-15.0" />
+      <point x="236.0" y="135.0" />
+      <point x="211.25" y="135.0" />
+      <point x="24.75" y="15.0" />
+    </edge>
+    <edge source="Dog" target="Mammal">
+      <point x="0.0" y="-15.0" />
+      <point x="137.5" y="135.0" />
+      <point x="161.75" y="135.0" />
+      <point x="-24.75" y="15.0" />
+    </edge>
+    <edge source="Bird" target="Animal">
+      <point x="0.0" y="-15.0" />
+      <point x="338.0" y="55.0" />
+      <point x="215.75" y="55.0" />
+      <point x="29.0" y="15.0" />
+    </edge>
+    <edge source="BlueWhale" target="Whale">
+      <point x="0.0" y="-15.0" />
+      <point x="171.0" y="215.0" />
+      <point x="215.0" y="215.0" />
+      <point x="-21.0" y="15.0" />
+    </edge>
+    <edge source="Mammal" target="Animal">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="183.5" y="170.0" />
+  <SelectedNodes>
+    <node>Shark</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

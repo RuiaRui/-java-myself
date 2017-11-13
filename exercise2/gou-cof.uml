@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Product</OriginalElement>
+  <nodes>
+    <node x="1254.45" y="437.0">Order</node>
+    <node x="1185.5" y="726.0">Sales</node>
+    <node x="796.9699537037036" y="1006.0">GourmetCoffee</node>
+    <node x="1124.7636574074072" y="240.0">OrderItem</node>
+    <node x="332.8687037037035" y="0.0">Product</node>
+    <node x="261.4999999999999" y="714.5">CoffeeBrewer</node>
+    <node x="666.5" y="680.0">Coffee</node>
+    <node x="10.5" y="714.5">Catalog</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GourmetCoffee" target="Order">
+      <point x="100.31250000000003" y="-176.5" />
+      <point x="1004.2824537037036" y="986.0" />
+      <point x="1438.0" y="986.0" />
+      <point x="1438.0" y="655.0" />
+      <point x="1475.85" y="655.0" />
+      <point x="98.39999999999986" y="96.5" />
+    </edge>
+    <edge source="GourmetCoffee" target="Coffee">
+      <point x="-6.6875" y="-176.5" />
+      <point x="897.2824537037036" y="916.0" />
+      <point x="788.25" y="916.0" />
+      <point x="-121.75" y="108.0" />
+    </edge>
+    <edge source="GourmetCoffee" target="OrderItem">
+      <point x="33.4375" y="-176.5" />
+      <point x="937.4074537037036" y="936.0" />
+      <point x="1175.0" y="936.0" />
+      <point x="1175.0" y="412.0" />
+      <point x="1202.3886574074072" y="412.0" />
+      <point x="-25.875" y="73.5" />
+    </edge>
+    <edge source="GourmetCoffee" target="Sales">
+      <point x="46.8125" y="-176.5" />
+      <point x="950.7824537037036" y="946.0" />
+      <point x="1240.5" y="946.0" />
+      <point x="-55.0" y="62.0" />
+    </edge>
+    <edge source="Order" target="OrderItem">
+      <point x="0.0" y="-96.5" />
+      <point x="1377.45" y="412.0" />
+      <point x="1305.8886574074072" y="412.0" />
+      <point x="77.625" y="73.5" />
+    </edge>
+    <edge source="GourmetCoffee" target="CoffeeBrewer">
+      <point x="-33.4375" y="-176.5" />
+      <point x="870.5324537037036" y="936.0" />
+      <point x="357.7499999999999" y="936.0" />
+      <point x="-96.25" y="73.5" />
+    </edge>
+    <edge source="GourmetCoffee" target="Product">
+      <point x="-100.3125" y="-176.5" />
+      <point x="803.6574537037036" y="986.0" />
+      <point x="0.0" y="986.0" />
+      <point x="0.0" y="190.0" />
+      <point x="346.64648148148126" y="190.0" />
+      <point x="-110.22222222222223" y="85.0" />
+    </edge>
+    <edge source="Order" target="Product">
+      <point x="82.0" y="-96.5" />
+      <point x="1459.45" y="412.0" />
+      <point x="1426.8125" y="412.0" />
+      <point x="1426.8125" y="190.0" />
+      <point x="567.0909259259256" y="190.0" />
+      <point x="110.22222222222211" y="85.0" />
+    </edge>
+    <edge source="GourmetCoffee" target="Catalog">
+      <point x="-86.9375" y="-176.5" />
+      <point x="817.0324537037036" y="976.0" />
+      <point x="48.83333333333337" y="976.0" />
+      <point x="-76.66666666666667" y="73.5" />
+    </edge>
+    <edge source="CoffeeBrewer" target="Product">
+      <point x="0.0" y="-73.5" />
+      <point x="453.9999999999999" y="220.0" />
+      <point x="456.8687037037035" y="220.0" />
+      <point x="0.0" y="85.0" />
+    </edge>
+    <edge source="OrderItem" target="Product">
+      <point x="51.75" y="-73.5" />
+      <point x="1280.0136574074072" y="200.0" />
+      <point x="539.5353703703702" y="200.0" />
+      <point x="82.66666666666669" y="85.0" />
+    </edge>
+    <edge source="Sales" target="Order">
+      <point x="-55.0" y="-62.0" />
+      <point x="1240.5" y="655.0" />
+      <point x="1279.05" y="655.0" />
+      <point x="-98.40000000000009" y="96.5" />
+    </edge>
+    <edge source="Catalog" target="Product">
+      <point x="-57.5" y="-73.5" />
+      <point x="68.0" y="655.0" />
+      <point x="116.83865740740714" y="655.0" />
+      <point x="116.83865740740714" y="200.0" />
+      <point x="374.2020370370368" y="200.0" />
+      <point x="-82.66666666666669" y="85.0" />
+    </edge>
+    <edge source="Coffee" target="Product">
+      <point x="0.0" y="-108.0" />
+      <point x="910.0" y="220.0" />
+      <point x="484.42425925925903" y="220.0" />
+      <point x="27.555555555555543" y="85.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.49818709209572154" x="750.5" y="679.5" />
+  <SelectedNodes>
+    <node>OrderItem</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
